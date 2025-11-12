@@ -5,6 +5,7 @@
 ### Prerequisites
 
 - [Textmining Utility][1]
+- [Textmining Annotator Resources][2]
 - Run `mvn clean` in the project root to install the custom built Monq jar
 
 ### Logging
@@ -25,3 +26,4 @@ as their values are used to determine the path of the log files "LOGPATH/logs/te
 
 
 [1]: https://gitlab.ebi.ac.uk/literature-services/public-projects/textmining-utility
+[2]: https://gitlab.ebi.ac.uk/literature-services/public-projects/textmining-annotator-resources
