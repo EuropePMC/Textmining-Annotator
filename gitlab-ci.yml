@@ -23,7 +23,6 @@ gitleaks_repo_scan:
       chmod +x /usr/local/bin/gitleaks
   script:
     # prepare folders
-    - rm README.md
     - mkdir -p .gitlab report_templates public
 
     # fetch latest gitleaks.toml into .gitlab/ (if fetch fails, keep committed .gitlab/gitleaks.toml)
